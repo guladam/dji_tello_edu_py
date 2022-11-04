@@ -15,3 +15,30 @@ dron.szalto()         # —> csinál egy szaltót
 dron.hatra_szalto()   # —> csinál egy hátra szaltót
 dron.leallitas()      # —> befejezi a programot
 ```
+
+## Példaprogram
+```python
+import dron
+
+dron.inditas()
+
+dron.fel(140)
+dron.elore(150)
+dron.balra(90)
+dron.elore(150)
+dron.balra(90)
+dron.elore(150)
+dron.balra(90)
+dron.elore(100)
+dron.balra(90)
+dron.elore(100)
+dron.balra(90)
+dron.elore(50)
+
+dron.hatra_szalto()
+
+dron.balra(90)
+dron.elore(50)
+
+dron.leallitas()
+```
